@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display Array fetched from API</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="btn_container">
+        <button id="render_btn">Render All</button>
+    </div>
+    <div class="first_table_container">
+        <h1>Post Details</h1>
+
+        <table id="postTable" border="1">
+            <thead>
+                <tr>
+                    <th>S.No.</th>
+                    <th>Title</th>
+                    <th>Body</th>
+                    <th>Reactions</th>
+                </tr>
+            </thead>
+            <tbody id="table_body_1">
+                <tr>
+                    <td>1</td>
+                    <td>His mother had always taught him</td>
+                    <td>
+                        His mother had always taught him not to ever think of himself as better than others.
+                        He'd tried to live by this motto. He never looked down on those who were less fortunate
+                        or who had less money than him. But the stupidity of the group of people he was talking
+                        to made him change his mind.
+                    </td>
+                    <td>
+                        <p>
+                            <b><i class="fa fa-tag" style="font-size:24px"></i> </b> history, american, crime
+                        </p>
+                        <p>
+                            <b><i class="fa fa-thumbs-up" style="font-size:24px"></i></i> </b> 192<br>
+
+                        </p>
+                        <p>
+                            <b><i class="fa fa-thumbs-down" style="font-size:24px"></i> </b> 25<br>
+
+                        </p>
+                        <p>
+                            <b><i class="fa fa-eye" style="font-size:24px"></i> </b> 305<br>
+
+                        </p>
+                        <p>
+                            <b><i class='far fa-address-card' style='font-size:24px'></i> </b> 91
+
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+    
+<div class="reder_cards">
+    <h1>Products Details</h1>
+    <table border="1">
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Image</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Category</th>
+            <th>Price</th>
+            <th>Rating</th>
+            <th>Stock</th>
+          </tr>
+        </thead>
+        <tbody id="products_table_body">
+          <tr>
+            <td>1</td>
+            <td>
+              <img src="https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png" 
+                   alt="Essence Mascara Lash Princess">
+            </td>
+            <td>Essence Mascara Lash Princess</td>
+            <td>The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.</td>
+            <td>Beauty</td>
+            <td>$9.99</td>
+            <td>4.95/5</td>
+            <td>5</td>
+          </tr>
+        </tbody>
+      </table>
+      
+</div>
+
+
+<div class="todo_list">
+    <h1>Todo lsit</h1>
+    <table border="1">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Todo</th>
+            <th>Completed</th>
+            <th>User ID</th>
+          </tr>
+        </thead>
+        <tbody id="todos_table_body">
+          <tr>
+            <td>1</td>
+            <td>Do something nice for someone you care about</td>
+            <td>false</td>
+            <td>152</td>
+          </tr>
+
+        </tbody>
+      </table>
+</div>
+    <script src="index.js"></script>
+</body>
+
+</html>

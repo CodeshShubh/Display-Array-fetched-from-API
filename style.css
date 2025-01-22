@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    background-color: black;
+    color: white;
+}
+
+
+.first_table_container{
+    /* border: 1px solid red; */
+    h1{
+        text-align: center;
+        margin:  1rem auto 0;
+        /* border: 1px solid white; */
+        background-color: red;
+        color: black;
+        width: 30%;
+        border-radius: 5px 5px 0 0 ;
+    }
+    width: 99%;
+    margin: 0 auto;
+    tbody td{
+        padding: 0.5rem;
+    }
+    /* tbody tr td:nth-child(3){
+         width: 45rem;
+    } */
+    tbody tr td p{
+         
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+          padding: 0.1rem;
+    }
+    table thead{
+        background-color: red;
+        border: 1px solid black;
+    }
+    table{
+        border-collapse: collapse;
+        border: 1px solid red;
+    }
+}
+
+
+
+.reder_cards{
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    h1{
+        text-align: center;
+        margin:  1rem auto 0;
+        /* border: 1px solid white; */
+        background-color: green;
+        color: black;
+        width: 30%;
+        border-radius: 5px 5px 0 0 ;
+    }
+    width: 99%;
+ table tbody td{
+ >img{
+    width: 100px;
+    height: 100px;
+ }
+}
+table thead{
+    background-color: green;
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid green;
+
+}
+table tbody td{
+    text-align: center;
+}
+table thead tr th{
+    padding: 0 0.5rem;
+        border: 1px solid green;
+
+}
+}
+
+
+
+.todo_list{
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 99%;
+    h1{
+        text-align: center;
+        margin:  1rem auto 0;
+        /* border: 1px solid white; */
+        background-color: blue;
+        color: black;
+        width: 30%;
+        border-radius: 5px 5px 0 0 ;
+    }
+    
+    table{
+        width: 99%;
+    }
+
+    tbody {
+        text-align: center;
+    }
+    table thead{
+        background-color: blue;
+        border: 1px solid black;
+    }
+    table{
+        border-collapse: collapse;
+        border: 1px solid blue;
+
+    }
+}
+
+
+.btn_container {
+    width: 80%;
+    /* border: 1px solid red; */
+    padding: 1rem;
+    margin: 1rem auto;
+
+    button{
+         width: 100%;
+            background-color: green;
+            padding: 0.5rem;
+            cursor: pointer;
+            font-size: 2rem;
+            margin: 0 auto;
+        }
+        button:hover{
+            background-color: rgb(15, 221, 15);
+        }
+        
+}
